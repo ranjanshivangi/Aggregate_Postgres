@@ -1,0 +1,38 @@
+An aggregate function computes a single result from multiple input rows. For example, there are aggregates to compute the count, sum, avg (average), max (maximum) and min (minimum) over a set of rows.
+
+1) SELECT max(age) as max_age
+	FROM public.students;
+
+output:
+max_age
+21
+
+2) SELECT min(age) as min_age
+	FROM public.students;
+
+output:
+min_age
+19
+
+3)SELECT avg(age) as avg_age
+	FROM public.students;
+
+output:
+avg_age
+20.4000000000
+
+4)SELECT sum(marks) as total_marks
+	FROM public.students;
+
+output:
+total_marks
+250
+
+5)SELECT count(*) as total_rows
+	FROM public.students;
+
+output:
+total_rows
+5
+
+
